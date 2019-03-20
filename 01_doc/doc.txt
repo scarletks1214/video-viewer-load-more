@@ -1,0 +1,19 @@
+I have an application that uses infinite loading at https://github.com/addyosmani/tmdb-viewer that is built using React and react-window (a virtualization/windowing library). Here is a demo of the app:
+
+https://tmdb-viewer.firebaseapp.com/
+
+Right now, if you scroll through the application, it lazy-loads/fetches/renders more items using react-window's Infinite Loader.
+
+I would like you to create a version of this app (in a separate repository) that has a “Load More” button you need to click in order to fetch/render the next batch of items. It would continue using react-window.
+
+Each time you click “Load More”, similar to scrolling, the next batch loads. Load More should render to an actual “<button>” (perhaps it is styled to match width: 100%) such that if you Ctrl + Tab through the page, you can hit enter when focused on “Load More’ for more items to load.
+
+Some apps have tried to use react-virtualized (an older version of react-window) and added a Load More button such as this example: https://github.com/satyendrasingh092/easyshop/blob/d9cc9a596a2ef3d739bf0856abc8f9ec915dced1/src/components/ProductListComponent.js#L75
+
+The application should render the "Load More" button responsively on both desktop and mobile.
+
+Thanks!
+
+
+Adnan Osmani
+Excellent. Added you to https://github.com/addyosmani/tmdb-viewer-load-more/invitations
